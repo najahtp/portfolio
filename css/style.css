@@ -7926,7 +7926,9 @@ button.bg-dark:focus {
   text-align: right !important; }
 
 .text-center {
-  text-align: center !important; }
+  text-align: center !important;
+  color: #fff;
+}
 
 @media (min-width: 576px) {
   .text-sm-left {
@@ -9064,7 +9066,7 @@ textarea.form-control {
     font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 12em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9219,7 +9221,7 @@ textarea.form-control {
 .user-img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: bottom; }
 
 .image-popup {
   cursor: -webkit-zoom-in;
@@ -9685,4 +9687,8 @@ textarea.form-control {
 
 
 /* extra styles  */
+.services-1:hover .icon img {
+  filter: grayscale(1);
+  filter: brightness(0) invert(1);
+}
 
